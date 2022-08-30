@@ -1,1 +1,16 @@
 /* write your override styles here */
+
+/* to suppress display of image inside tag-1 */
+html body div#wall .tag-1 {
+    display: none;
+} 
+
+/* to suppress display of image inside tag-2 */
+html body #wall #tag-2  {
+    display: none;
+} 
+
+/* to suppress display of image inside tag-3 */
+html body div#wall #tag-3.slick {
+  display: none;
+}
